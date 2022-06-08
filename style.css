@@ -19,3 +19,31 @@ span {
     font-size: 2rem;
     font-weight: bold;
 }
+
+#game-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 10px auto;
+    border: 2px solid red;
+}
+
+#category-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#clue-board {
+    flex-direction: column;
+}
+
+.clue-box {
+    display: flex;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 5px;
+    height: 100px;
+    flex: 1;
+}
