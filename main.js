@@ -13,6 +13,15 @@ function initializeBoard() {
     for (let j = 0; j < 6; j++) {
       let box = document.createElement('div');
       box.className = 'clue-box';
+      box.textContent = '$' + boxValue;
+      box.addEventListener('click', getClue, false);
+      row.appendChild(box);
     }
+
+    board.appendChild(row);
   }
+}
+
+function getClue() {
+  console.log('just for testing');
 }

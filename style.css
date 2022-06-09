@@ -39,6 +39,10 @@ span {
     flex-direction: column;
 }
 
+.clue-row {
+    display: flex;
+}
+
 .clue-box {
     display: flex;
     border: 2px solid green;
