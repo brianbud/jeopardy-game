@@ -26,7 +26,6 @@ span {
     flex-direction: column;
     width: 75vw;
     margin: 10px auto;
-    border: 2px solid red;
 }
 
 #category-row {
@@ -45,7 +44,8 @@ span {
 
 .clue-box {
     display: flex;
-    border: 2px solid green;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
     margin: 5px;
     height: 100px;

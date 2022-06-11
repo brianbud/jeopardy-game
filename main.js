@@ -1,4 +1,5 @@
 //initialize game board on page
+initializeCategoryRow();
 initializeBoard();
 
 function initializeCategoryRow() {
