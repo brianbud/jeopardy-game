@@ -41,6 +41,26 @@ function buildCategories() {
   const fetchRequest1 = fetch(
     `https://jservice.io/api/category?&id=${randomInt()}`
   ).then((response) => response.json());
+
+  const fetchRequest2 = fetch(
+    `https://jservice.io/api/category?&id=${randomInt()}`
+  ).then((response) => response.json());
+
+  const fetchRequest3 = fetch(
+    `https://jservice.io/api/category?&id=${randomInt()}`
+  ).then((response) => response.json());
+
+  const fetchRequest4 = fetch(
+    `https://jservice.io/api/category?&id=${randomInt()}`
+  ).then((response) => response.json());
+
+  const fetchRequest5 = fetch(
+    `https://jservice.io/api/category?&id=${randomInt()}`
+  ).then((response) => response.json());
+
+  const fetchRequest6 = fetch(
+    `https://jservice.io/api/category?&id=${randomInt()}`
+  ).then((response) => response.json());
 }
 
 function getClue() {
