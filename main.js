@@ -33,6 +33,12 @@ function initializeBoard() {
   }
 }
 
+function buildCategories() {
+  const fetchRequest1 = fetch(
+    `https://jservice.io/api/category?&id=${randomInt()}`
+  ).then((response) => response.json());
+}
+
 function getClue() {
   console.log('just for testing');
 }
