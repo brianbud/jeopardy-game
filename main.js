@@ -33,6 +33,10 @@ function initializeBoard() {
   }
 }
 
+function randomInt() {
+  return Math.floor(Math.random() * 18418 + 1);
+}
+
 function buildCategories() {
   const fetchRequest1 = fetch(
     `https://jservice.io/api/category?&id=${randomInt()}`
