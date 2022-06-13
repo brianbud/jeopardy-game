@@ -61,6 +61,19 @@ function buildCategories() {
   const fetchRequest6 = fetch(
     `https://jservice.io/api/category?&id=${randomInt()}`
   ).then((response) => response.json());
+
+  const allData = Promise.all([
+    fetchRequest1,
+    fetchRequest2,
+    fetchRequest3,
+    fetchRequest4,
+    fetchRequest5,
+    fetchRequest6,
+  ]);
+
+  allData.then((response) => {
+    console.log(response);
+  });
 }
 
 function getClue() {
